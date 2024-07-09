@@ -51,7 +51,7 @@ const todasTarefasFinalizadas = computed(() => {
 </script>
 
 
-<template>
+<template class="body">
   <div class="container">
     <Cabecalho :tarefas-pendentes="getTarefasPendentes().length"/>
     <Formulario :trocar-filtro="evento => estado.filtro = evento.target.value" :tarefa-temp="estado.tarefaTemp" :edita-tarefa-temp="evento => estado.tarefaTemp = evento.target.value" :cadastra-tarefa="cadastraTarefa"/>
@@ -65,6 +65,17 @@ const todasTarefasFinalizadas = computed(() => {
 </template>
 
 <style>
+.container {
+  margin: 100px auto;
+}
+
+body {
+  background-image: url('https://img.freepik.com/fotos-gratis/resumo-liso-vazio-cinza-studio-bem-usar-como-plano-de-fundo-relatorio-de-negocios-digital-modelo-de-site-pano-de-fundo_1258-55967.jpg?t=st=1720564250~exp=1720567850~hmac=6f1cc8d7aab2acea455f3a8ac084abf4b9ed2598b32981888dd39ee5337d0960&w=1380');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
 
 .container .mensagem{
   background-color: #d3f0d2;
