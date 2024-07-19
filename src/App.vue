@@ -70,7 +70,7 @@ const todasTarefasFinalizadas = computed(() => {
 }
 
 body {
-  background-image: url('https://img.freepik.com/fotos-gratis/resumo-liso-vazio-cinza-studio-bem-usar-como-plano-de-fundo-relatorio-de-negocios-digital-modelo-de-site-pano-de-fundo_1258-55967.jpg?t=st=1720564250~exp=1720567850~hmac=6f1cc8d7aab2acea455f3a8ac084abf4b9ed2598b32981888dd39ee5337d0960&w=1380');
+  background-image: url('https://servidor-estatico-alpha-six.vercel.app/todo-background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 
