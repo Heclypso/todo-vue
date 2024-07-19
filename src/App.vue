@@ -69,14 +69,6 @@ const todasTarefasFinalizadas = computed(() => {
   margin: 100px auto;
 }
 
-body {
-  background-image: url('https://servidor-estatico-alpha-six.vercel.app/todo-background.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-
-
-}
-
 .container .mensagem{
   background-color: #d3f0d2;
   color: #5bad3b;
